@@ -1,0 +1,111 @@
+body {
+  background-color: #F5FFFA;
+}
+#quote-text p{
+  margin:0;
+}
+/*.op-ch{
+  animation: opacity-change 2s;
+}
+@keyframes opacity-change {
+  0% { opacity: 0;}
+  50% { opacity: 0.5;}
+  100% { opacity: 1;}
+  from { opacity: 0;}
+  to {opacity: 1;}
+}*/
+.quote-box {
+  display:block;
+  overflow:auto;
+  width: 100%;
+  border-radius: 10px;
+  animation-name: pulsate;
+  animation-duration: 100s;
+  animation-timing-function: linear;
+  animation-delay: initial;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-fill-mode: initial;
+  animation-play-state: initial;
+}
+@keyframes pulsate
+    {
+      0% {
+        color: #333;
+        background: #fff;
+      }
+      7% {
+          color: #0c85ff;
+          background: #001F3F;
+      }
+      14% {
+          color: #40a9ff;
+          background: #0074D9;
+      }
+      21% {
+          color: #00a8e5;
+          background: #7FDBFF;
+      }
+      28% {
+          color: #165656;
+          background: #39CCCC;
+      }
+      35% {
+          color: #112c20;
+          background: #3D9970;
+      }
+      42% {
+          color: #124f18;
+          background: #2ECC40;
+      }
+      49% {
+          color: #00672d;
+          background: #01FF70;
+      }
+      56% {
+          color: #665700;
+          background: #FFDC00;
+      }
+      63% {
+          color: #ffd6b4;
+          background: #FF851B;
+      }
+      70% {
+          color: #ffd1cf;
+          background: #FF4136;
+      }
+      77% {
+          color: #e44e99;
+          background: #85144B;
+      }
+      84% {
+          color: #f9a2e6;
+          background: #F012BE;
+      }
+      91% {
+          color: #e679f6;
+          background: #B10DC9;
+      }
+      95% {
+          color: #5e5e5e;
+          background: #111;
+      }
+      96% {
+          color: #919191;
+          background: #ddd;
+      }
+      98% {
+          color: #5d5d5d;
+          background: #aaa;
+      }
+      100% {
+          color: #b3b3b3;
+          background: #fff;
+      }
+    }
+.btn {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+}
